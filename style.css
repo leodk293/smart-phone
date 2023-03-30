@@ -1,0 +1,142 @@
+body{
+    background-color: #F3E9FE;
+    display: flex;
+    justify-content: center;
+   
+}
+.border{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.header-phone{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    border-radius: 10px;
+    height: 90px;
+}
+.small-border{
+    border: 1px solid white;
+    border-radius: 0 0 40px 40px;
+    background-color: white;
+    width: 230px;
+    height: 20px;
+    align-self: center;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 10px;
+
+}
+.row{
+    display: flex;
+    gap: 10px;
+}
+.purpple{
+    border: 1px solid purple;
+    border-radius: 30px 30px 0 0;
+    background:linear-gradient(90deg, purple, plum);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 5px;
+}
+.content{
+    border: 1px solid #E8E2E9;
+    background-color: #E8E2E9;
+    border-radius: 0 0 25px 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+}
+.chat{
+    border: 1px solid plum;
+    border-radius: 10px;
+    background-color: plum;
+    color: purple;
+    align-self: flex-start;
+    padding: 15px;
+}
+.animals{
+    display: flex;
+    gap: 10px;
+    align-self: flex-end;
+}
+.me{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    align-self: flex-end;
+    padding: 10px;
+}
+.price{
+    border: 1px solid purple;
+    color: white;
+    border-radius: 10px 15px 15px 5px;
+    padding: 10px;
+    background: linear-gradient(90deg,plum, purple);
+    width: 250px;
+}
+.messenger{
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    gap: 30px;
+}
+.place-message{
+    color: grey;
+    opacity: 0.5;
+}
+.black{
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: black;
+    width: 20px;
+    height: 15px;
+    align-self: flex-end;
+    margin-left: 250px;
+}
+.sam{
+    border-radius: 50px;
+    height: 40px;
+    margin-top: 10px;
+}
+.text{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h2{
+    font-family: sans-serif;
+}
+.paragraphe{
+    color: gray;
+}
+.overall{
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    gap: 100px;   
+}
+@media screen and (max-width: 990px){
+    .overall{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: auto;
+    }
+    h2,p{
+        text-align: center;
+    }
+    
+}
